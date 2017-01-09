@@ -7,8 +7,9 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-	url(r'^recipes/', include('recipes.urls')),
-	url(r'^stocks/', views.StockList.as_view()),
+    url(r'^recipes/', include('recipes.urls')),
+    url(r'^stocks/', views.StockList.as_view()),
+    url(r'^$', RedirectView.as_view(url='/recipes/', permanent=False), name='index'),
 ]
 
 urlpatterns = format_suffix_patterns(urlpatterns)
