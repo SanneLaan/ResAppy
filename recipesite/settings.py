@@ -25,8 +25,7 @@ SECRET_KEY = '(gg&2ot$3dh2c7&*!8u%l13z#2j%+6)&&mdte5yz@2_*d)2dx3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['resappy.dral.eu']
 
 # Application definition
 
