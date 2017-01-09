@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700|Open+Sans:300,400');
+
+body{
+	// background: white url("images/background.jpg");
+	font-family: 'Open Sans';
+	font-weight: 300;
+}
+
+.navbar{
+	border-radius: 0;
+}
+
+.navbar-brand{
+	font-family: 'Satisfy', cursive;
+}
+
+.thumbnail {
+	box-shadow: 5px 5px 30px grey;
+	border-radius: 5px;
+	padding: 0 0 1em 0;
+	width:80%;
+	margin: 2em 10%;
+}
+
+.img-wrap {
+	width:100%;
+	height:150px;
+	overflow:hidden;
+	display: block;
+	position: relative;
+}
+.img-wrap .img-responsive {
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    min-width: 100%;
+    min-height: 100%;
+	max-width:180%;
+	width:!important;
+}
+
+.recipe-title {
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+	font-size: 1.5em;
+	margin: 0.5em 0;
+}
+.recipe-subtitle {
+	font-size: 0.8em;
+}
+
+.btn-primary {
+	background-color: #3CBA3E !important;
+}
+
+.ingredients {
+	font-family: 'Merriweather', serif;
+	font-size: 1.5em;
+}
+	
