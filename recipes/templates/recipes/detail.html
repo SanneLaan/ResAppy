@@ -24,7 +24,7 @@
 	</div>
 	<div class="row">
 		<div class="col-sm-4 col-lg-12">
-			<img src="{{ recipe.recipe_picture.url }}" class="img-responsive" width="1500px">
+			<img src="{{ recipe.recipe_picture.url }}" class="img-responsive" width="1700px">
 		</div>
 	</div>
 	<div class="row">
@@ -39,12 +39,13 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-sm-4 col-lg-6">
+		<div class="col-sm-4 col-lg-3">
+			<h3>Ingredients:</h3>
 			<li class="ingredients">{{ recipe.ingredient_1 }}</li>
 			<li class="ingredients">{{ recipe.ingredient_2 }}</li>
 			<li class="ingredients">{{ recipe.ingredient_3 }}</li>
 		</div>
-		<div class="col-sm-4 col-lg-6">
+		<div class="col-sm-4 col-lg-8">
 			<h3>Preparation:</h3>
 			<h4>{{ recipe.recipe_description }}</h4>
 		</div>
